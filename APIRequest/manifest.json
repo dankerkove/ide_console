@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Api Call",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.api.smartthings.com/*"
+      ],
+    "js": ["jquery-3.4.1.min.js", "content.js"]
+    }
+  ]
+}
+
+
+
